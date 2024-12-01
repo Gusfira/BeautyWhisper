@@ -1066,7 +1066,8 @@ textarea#comment::placeholder {
 /* copyright section end */
 .price_link {
     text-decoration: none;
-    color: #f75261;
+    color: #ffffff;
+    background-color: #f75261;
     font-weight: bold;
     transition: color 0.3s ease;
 }
