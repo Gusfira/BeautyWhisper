@@ -1071,7 +1071,7 @@ textarea#comment::placeholder {
     font-weight: bold;
     background-color: #f75261; /* Warna latar belakang */
     padding: 5px 10px; /* Ruang di sekitar teks */
-    border-radius: 5px; /* Membuat sudut melengkung */
+    border-radius: 20px; /* Membuat sudut melengkung */
     transition: background-color 0.3s ease, color 0.3s ease; /* Efek animasi */
 }
 
