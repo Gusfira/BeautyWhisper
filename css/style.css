@@ -1065,13 +1065,17 @@ textarea#comment::placeholder {
 
 /* copyright section end */
 .price_link {
+    display: inline-block; /* Pastikan latar belakang hanya mencakup teks */
     text-decoration: none;
-    color: #ffffff;
-    background-color: #f75261;
+    color: #ffffff; /* Warna teks */
     font-weight: bold;
-    transition: color 0.3s ease;
+    background-color: #f75261; /* Warna latar belakang */
+    padding: 5px 10px; /* Ruang di sekitar teks */
+    border-radius: 5px; /* Membuat sudut melengkung */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Efek animasi */
 }
 
 .price_link:hover {
-    color: #363636;
+    background-color: #363636; /* Warna latar belakang saat hover */
+    color: #fdfdfd; /* Warna teks saat hover */
 }
